@@ -2,15 +2,19 @@
   <client-only>
     <div class="html2md-box">
       <div class="title-view">
-        <a href="https://www.helloworld.net" target="_blank">
-          <img width="100" src="/img/logo.svg">
+        <!-- <a href="https://www.helloworld.net" target="_blank"> -->
+          <!-- <img width="100" src="/img/logo.svg"> -->
+        <a href="https://jing.xj.cn" target="_blank">
+          <img width="100" src="/img/favicon.png">
         </a>
         <div>
           <h1 class="h1">html 转 md</h1>
           <h3 class="h3">支持 csdn、掘金、简书、segmentfault、cnblogs、oschina、微信文章</h3>
         </div>
-        <a href="https://github.com/helloworld-Co/html2md" target="_blank">
-          <img width="40" src="/img/github.svg">
+        <!-- <a href="https://github.com/helloworld-Co/html2md" target="_blank">
+          <img width="40" src="/img/github.svg"> -->
+        <a href="https://github.com/1447443432/html2md" target="_blank">
+          <img width="40" src="/img/favicon.png">
         </a>
       </div>
 

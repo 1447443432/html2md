@@ -1,10 +1,7 @@
 <h1 align="center">🎉 Html2md 🥳</h1>
 
 <div >
-
 `html2md` 是由 [helloworld开发者社区](https://www.helloworld.net) 开源的一款轻量级功能强大的html转md工具💪🏻，纯前端开发，不需要后端接口（<small> Node是我们前端的</small>😗！），支持多平台，一键将文章链接转换为md，方便大家收藏和保存文章🤪。请勿做其它用途
-
-[html2md地址](https://www.helloworld.net/html2md) 👈🏻
 
 ### 教程，如下图
 ![html2md教程](./demo.png)
@@ -28,7 +25,7 @@
 
 ### 第一步：下载
 ```bash
-git clone git@github.com:helloworld-Co/html2md.git
+git clone https://github.com/1447443432/html2md
 cd ./html2md
 ```
 ### 第二步：安装
@@ -62,13 +59,6 @@ yarn dev
 - **2021.07.10**
 1. 添加对 learnku 文章的支持👌🏻。
 
-
-## 技术交流群 / 官方公众号
-微信号 **daitukeji**
-<br/>
-<img src="./wx-group.png" width = "200" alt="官方微信群" />
-<img src="./wx.png" width = "200" alt="官方公众号" />
-
 ## 支持环境
 
 现代浏览器及 IE11。
@@ -76,13 +66,3 @@ yarn dev
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Opera |
 | --------- | --------- | --------- | --------- | --------- |
 | IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions
-
-## 参与贡献
-
-我们非常欢迎你的贡献，你可以通过以下方式和我们一起共建 😃
-
-- 通过 [Issue](https://github.com/helloworld-Co/html2md/issues) 报告 bug。
-- 提交 [Pull Request](https://github.com/helloworld-Co/html2md/pulls) 一起改进。
-
-## 技术交流
-<img src="./daitu.jpg" width=240 />
