@@ -69,7 +69,8 @@ const html2md = {
   addOriginText () {
     // 底部添加转载来源声明
     const originDom = new JSDOM('').window.document.createElement('div')
-    originDom.innerHTML = `<br/><div>本文转自 <a href="${this.qUrl}" target="_blank">${this.qUrl}</a>，如有侵权，请联系删除。</div>`
+    // originDom.innerHTML = `<br/><div>本文转自 <a href="${this.qUrl}" target="_blank">${this.qUrl}</a>，如有侵权，请联系删除。</div>`
+    originDom.innerHTML = ""
     this.dom.appendChild(originDom)
     return this
   },
