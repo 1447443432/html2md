@@ -14,7 +14,7 @@
         <!-- <a href="https://github.com/helloworld-Co/html2md" target="_blank">
           <img width="40" src="/img/github.svg"> -->
         <a href="https://github.com/1447443432/html2md" target="_blank">
-          <img width="40" src="/img/github.svg">
+          <img width="40" src="/img/favicon.png">
         </a>
       </div>
 
@@ -34,19 +34,13 @@
         >👉一键转换</el-button>
       </div>
       <br/>
-      <div class="title-box">
-        <el-input
-          @focus="getInputFocus($event)"
-          v-model="title"
-          size="small"
-          placeholder="标题（自动读取）" />
-        <div>&nbsp;</div>
-        <el-button
-          @click="cleantitle"
-          size="small"
-          type="primary"
-        >👉重置标题</el-button>
-      </div>
+      <el-input
+        @focus="getInputFocus($event)"
+        v-model="title"
+        size="small"
+        placeholder="标题（自动读取）" />
+      <br/>
+
       <div class="input-box">
         <mavon-editor ref="editor" v-model="md" @save="toDownload"/>
       </div>
@@ -80,6 +74,11 @@ export default {
   methods: {
     downLoadFile (url) {
       const a = document.createElement('a')
+      // if (!this.title) {
+      //   a.download = `${Date.now()}.md`
+      // } else {
+      //   a.download = `${this.title}.md`
+      // }
       if (!this.title) {
         this.title = Date.now()
       }
@@ -132,9 +131,6 @@ export default {
         }).catch(() => {
           this.isLoading = false
         })
-    },
-    cleantitle () {
-      this.title = null
     }
   }
 }
@@ -159,12 +155,7 @@ export default {
         color: #666;
       }
     }
-    .url-box {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .title-box {
+    .url-box{
       display: flex;
       align-items: center;
       justify-content: space-between;
