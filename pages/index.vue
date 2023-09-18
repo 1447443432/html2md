@@ -46,6 +46,11 @@
           size="small"
           type="primary"
         >👉重置标题</el-button>
+        <el-button
+          @click="toDownload"
+          size="small"
+          type="primary"
+        >👉下载</el-button>
       </div>
       <div class="input-box">
         <mavon-editor ref="editor" v-model="md" @save="toDownload"/>
